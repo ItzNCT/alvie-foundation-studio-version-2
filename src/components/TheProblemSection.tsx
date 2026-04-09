@@ -322,7 +322,7 @@ export default function TheProblemSection() {
   return (
     <>
       {/* Floating Atelier on dark bg */}
-      <section className="relative bg-alvie-green py-16 md:py-24">
+      <section className="problem-section relative bg-alvie-green py-16 md:py-24" style={{ position: 'relative', zIndex: 15 }}>
         <div className="mx-auto max-w-[1200px] px-5 md:px-10">
           <div className="bg-alvie-white rounded-3xl shadow-[0_8px_60px_-12px_rgba(15,92,78,0.12)] px-6 py-12 md:px-14 md:py-20 lg:px-20 lg:py-24">
             <TheHook />
