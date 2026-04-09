@@ -37,9 +37,9 @@ const ScrollytellingFreezeFrame = () => {
           },
         });
 
-        // Hide freeze frame when canvas section covers it
+        // Hide freeze frame when the problem section covers it
         ScrollTrigger.create({
-          trigger: ".canvas-section",
+          trigger: ".problem-section",
           start: "top 95%",
           onEnter: () => {
             el.style.visibility = "hidden";
